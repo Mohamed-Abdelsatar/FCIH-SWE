@@ -1,0 +1,94 @@
+h1{
+    text-align: center;
+    color: #3f3f4d;
+    font-size: 4em;
+    font-weight: 800;
+}
+
+.para{
+    margin: 2em;
+    background-color: rgba(83, 131, 211, 0.5);
+    border-radius: 3em;
+    padding: 2em;
+}
+.para > p{
+    color: #3f3f4d;
+    text-align: left;
+    font-size: 1em;
+    font-weight: bold;
+}
+.rec > p{
+    margin: 60;
+    padding: 70;
+    font-size: 35;
+    color: #3f3f4d;
+    font-family: 'Secular One', sans-serif;
+
+  }
+  .conttt {
+    position: relative;
+    min-width: auto;
+    max-width: 1200px;
+    
+    min-height: auto;
+    max-height: 80px;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+  }
+  .conttt > .box{
+      position: relative;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+      width: calc(1200px - 20px);
+      height: calc(200px - 5px);
+      background:#e2e2f3;
+      float: left;
+      margin: 15px;
+      width: auto;
+      box-sizing: border-box;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px  rgb(90, 90, 90);
+      cursor: pointer;
+      transition: transform 500ms;
+
+  }
+  .conttt > .box:hover {
+    transform: scale(1.05);
+
+  }
+.boxcont {
+    
+    padding: 20px;
+    font-weight: 600;
+
+    font-size: 25px;
+    color: #3f3f4d;
+   font-family: 'Secular One', sans-serif;;
+  }
+.role {
+        color:  #3f3f4d;
+        font-weight: 650;
+        font-size: 33px;
+        text-align: center;
+        margin: 30px;
+    }
+.role > span {
+    color: rgb(190, 0, 0);
+}
+
+@media (max-width: 880px){
+    .role{
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+    }
+    #no-event .p2{
+        font-weight: 600;
+        font-size: 28px;
+        text-align: center;
+    }

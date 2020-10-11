@@ -1,0 +1,26 @@
+#home-corona{
+    padding-right: 8em;
+    padding-left: 8em;
+    background: #232323;
+    height: 400px;
+}
+.image2{
+    background-image: url("..//csm_Corona_virus_web_74e391e6b0.jpg");
+    background-size: cover;
+    height: 400px;
+}
+.image2 > p{
+    text-align: center;
+    line-height: 400px;
+    font-family: Merriweather;
+    font-size: 4em;
+    font-weight: bolder;
+}
+#home-corona-2{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+#home-corona-2 ul{
+    display: block;
+    margin: auto;
+}

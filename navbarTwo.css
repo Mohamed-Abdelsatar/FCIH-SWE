@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,900);
+
+html, body {
+  margin: 0;
+  font-family: Lato;
+  color: white;
+  background-color: white;
+}
+
+.wrapper {
+  display: table;
+  height: 100%; width: 100%;
+}
+
+.stage {
+  display: table-cell;
+ /* vertical-align: middle;*/
+}
+
+.tabled, .middled {
+  text-align: center;
+  margin: 0 auto;
+}
+a {
+  text-transform: uppercase;
+  font-size: 28px;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+
+p {
+  font-weight: 100;
+  font-size: 80%;
+  margin: 1px;
+}
+
+[class^="link-"] {
+  display: inline-block;
+  margin: 2em
+}
+.centerlogonav
+{
+  position:absolute;
+	left:-35;
+	text-decoration:none;
+	text-transform:uppercase;
+	height:135px;
+	width:135px;
+}
+/* linkone */
+.link-1 a:before, .link-1 a:after {
+  content: '';
+  border-bottom: solid 1px black;
+  position: absolute;
+  bottom: 0;
+  width: 0;
+}
+
+.link-1 a:before { left: 0; }
+.link-1 a:after { right: 0; }
+
+.link-1 a:hover:before, .link-1 a:hover:after {
+  width: 50%;
+}
+
+.link-1 a:before, .link-1 a:after {
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}

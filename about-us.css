@@ -1,0 +1,98 @@
+.about-us-content > h1{
+    text-align: center;
+    color: #3f3f4d;
+    font-size: 4em;
+    font-weight: 800;
+}
+
+.about-us-content > .para{
+    margin: 2em;
+    background-color: rgba(83, 131, 211, 0.5);
+    border-radius: 3em;
+    padding: 2em;
+}
+
+.about-us-content > .para > p{
+    color: #3f3f4d;
+    text-align: left;
+    font-size: 1em;
+    font-weight: bold;
+}
+.headerword {
+    color: #3f3f4d;
+    text-align: left;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 45px;
+    padding: 10px;
+
+}
+.about-us-content > .mission {
+    margin: 45px;
+    padding: 10px;
+    display: grid ;
+    grid-gap: 10px ;
+    grid-template-areas: 
+    "img4mis cont4mis cont4mis cont4mis"
+    "img4mis cont4mis cont4mis cont4mis"
+    "img4mis cont4mis cont4mis cont4mis"
+    "img4mis cont4mis cont4mis cont4mis"
+    ;
+    color: darkblue;
+}
+
+.img4mis {
+    grid-area: img4mis;
+}
+.cont4mis {
+    grid-area: cont4mis;
+    color: #3f3f4d;
+    text-align: left;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height:30px;
+}
+.img4vis {
+    text-align: center;
+}
+.vision {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.vision > div {
+    margin: 25px;
+    padding: 10px;
+}
+.cont4vis {
+    color: #3f3f4d;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height:30px;
+}
+.about-us-content > .val {
+    margin: 45px;
+    padding: 10px;
+    display: grid ;
+    grid-gap: 10px ;
+    grid-template-areas: 
+    "cont4val cont4val cont4val img4val"
+    "cont4val cont4val cont4val img4val"
+    "cont4val cont4val cont4val img4val"
+    "cont4val cont4val cont4val img4val"
+    ;
+    color: darkblue;
+}
+
+.img4val {
+    grid-area: img4val;
+}
+.cont4val {
+    grid-area: cont4val;
+    color: #3f3f4d;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height:30px;
+}

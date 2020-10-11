@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.covid-wrapper {
+    background-image: url(Artworks/epidemic.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.covid-wrapper .covid-overlay-1 {
+    background-color: #c6c6e0dd;
+    min-height: 500px;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.covid-wrapper .covid-overlay-1 .content-1 {
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+}
+
+.covid-wrapper .covid-overlay-1 .content-1 .covid-heading-1 {
+    color: #3f3f4f;
+    font-family: "Bitter";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+.covid-wrapper .covid-overlay-1 .content-1 .covid-instructions {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.covid-wrapper .covid-overlay-1 .content-1 .covid-instructions .ins {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4em 1em;
+}
+
+.covid-wrapper .covid-overlay-1 .content-1 .covid-instructions .ins .txt {
+    font-family: "Raleway";
+    color: #3f3f4f;
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.covid-wrapper .covid-overlay-1 .content-1 .covid-instructions .ins .txt p {
+    font-weight: 500;
+    padding: 1em;
+    font-size: x-large;
+}
+
+.vctr {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.svg {
+    width: 50%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.content-2 h2 {
+    font-family: "Raleway";
+    padding: 4em;
+    font-weight: 500;
+    color: #3f3f4f;
+}

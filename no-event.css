@@ -1,0 +1,80 @@
+ #no-event .p1{
+    color: rgb(190, 0, 0);
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+}
+#no-event .p2{
+    color: rgb(52, 52, 63);
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+}
+#no-event .p{
+    color: rgb(52, 52, 63);
+    font-weight: 600;
+    font-size: 77px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+}
+#no-event span{
+    color: #5383d3;
+}
+#no-event img{
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 20%;
+    animation: animate 2s infinite ease-in-out;
+}
+@keyframes animate{
+    0%, 100%{
+        transform: scale(1);
+    }
+    25%, 75%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1.7);
+    }
+}
+@media (max-width: 880px){
+    #no-event .p1{
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+    }
+    #no-event .p2{
+        font-weight: 600;
+        font-size: 28px;
+        text-align: center;
+    }
+    #no-event span{
+        color: #5383d3;
+    }
+    @keyframes animate{
+        0%, 100%{
+            transform: scale(3);
+        }
+        25%, 75%{
+            transform: scale(3.6);
+        }
+        50%{
+            transform: scale(5.1);
+        }
+    }
+}
+@media (max-width: 810px){
+    @keyframes animate{
+        0%, 100%{
+            transform: scale(2);
+        }
+        25%, 75%{
+            transform: scale(2.4);
+        }
+        50%{
+            transform: scale(3.4);
+        }
+    }
+}

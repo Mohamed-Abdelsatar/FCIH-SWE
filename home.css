@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#wrapper .covid-19 {
+    background-color: #be0000;
+    min-height: 32px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#wrapper .covid-19 p {
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+}
+
+#wrapper .covid-19 p a {
+    text-decoration: none;
+    color: #eee;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: small;
+}
+
+#wrapper .home-container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#wrapper .home-container .banner-1 {
+    background-image: url(Artworks/library.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#wrapper .home-container .banner-1 .banner-overlay-1 {
+    background-color: #3f3f4dcc;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#wrapper .home-container .banner-1 .banner-overlay-1 .heading-1 {
+    color: #eee;
+    font-family: "Bitter";
+    text-align: center;
+    margin: 64px 32px;
+    font-size: 48px;
+}
+
+#wrapper .home-container .banner-1 .banner-overlay-1 .heading-2 {
+    color: #eee;
+    font-family: "Raleway";
+    font-weight: 400;
+    margin: 0 160px;
+    text-align: center;
+}
+
+#wrapper .home-container .banner-1 .banner-overlay-1 .join-now {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 32px;
+}
+
+#wrapper .home-container .banner-1 .banner-overlay-1 .join-now button {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 256px;
+    height: 96px;
+    border-radius: 32px;
+    border: 4px solid white;
+    background-color: #3f3f4d;
+}
+
+#wrapper .home-container .banner-1 .banner-overlay-1 .join-now button {
+    font-family: "Bitter";
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    transition: .25s ease-in-out;
+}
+
+.buttons {
+    font-weight: 800;
+}
+
+#wrapper .home-container .banner-1 .banner-overlay-1 .join-now button:hover {
+    background-color: #be0000;
+    border: 4px solid #be0000;
+    transition: .25s ease-in-out;
+}
+
+/* Content 2 */
+
+#wrapper .home-container .banner-2 {
+    background-color: #eee;
+}
+
+#wrapper .home-container .banner-2 .banner-overlay-2 {
+    min-height: 600px;
+    padding: 16px 64px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    grid-gap: 16px;
+}
+
+/**/
+#wrapper .home-container .banner-2 .banner-overlay-2 .heading-2 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#wrapper .home-container .banner-2 .banner-overlay-2 .heading-2 h2 {
+    font-family: "Bitter";
+    font-size: xx-large;
+}
+
+#wrapper .home-container .banner-2 .banner-overlay-2 .content-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#wrapper .home-container .banner-2 .banner-overlay-2 .content-grid-2 .gi {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+#wrapper .home-container .banner-2 .banner-overlay-2 .content-grid-2 .gi {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+#wrapper .home-container .banner-2 .banner-overlay-2 * {
+    color: #3f3f4d;
+}
+
+#wrapper .home-container .banner-2 .banner-overlay-2 .content-grid-2 .gi i {
+    font-size: 108px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    overflow: hidden;
+}
+
+#wrapper .home-container .banner-2 .banner-overlay-2 .content-grid-2 .gi h2,
+#wrapper .home-container .banner-2 .banner-overlay-2 .content-grid-2 .gi h4 {
+    font-family: "Raleway";
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+/* Content 3 */
+
+#wrapper .home-container .banner-3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image: url(Artworks/football.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#wrapper .home-container .banner-3 .banner-overlay-3 {
+    background-color: #be0000cc;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+#wrapper .home-container .banner-3 .banner-overlay-3 .heading-3 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#wrapper .home-container .banner-3 .banner-overlay-3 .heading-3 * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 64px;
+}
+
+#wrapper .home-container .banner-3 .banner-overlay-3 .heading-3 h1 {
+    font-size: 64px;
+    font-family: "Bitter";
+}
+
+#wrapper .home-container .banner-3 .banner-overlay-3 .heading-3 h3 {
+    font-size: 32px;
+    font-family: "Raleway";
+    font-weight: 400;
+}
+
+#wrapper .home-container .banner-3 .banner-overlay-3 .button-events-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#wrapper .home-container .banner-3 .banner-overlay-3 .button-events-3 button {
+    width: 256px;
+    height: 96px;
+    border-radius: 32px;
+    border: 4px solid white;
+    background-color: #3f3f4d;
+    color: white;
+    /**/
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    /**/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /**/
+    font-family: "Bitter";
+    font-size: xx-large;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#wrapper .home-container .banner-3 .banner-overlay-3 .button-events-3 button:hover {
+    background-color: white;
+    color: #be0000;
+    transition: .5s;
+}

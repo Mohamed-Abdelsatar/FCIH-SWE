@@ -1,0 +1,42 @@
+ h1{
+    text-align: center;
+    color: #3f3f4d;
+    font-size: 4em;
+    font-weight: 800;
+}
+
+.para{
+    margin: 2em;
+    background-color: rgba(83, 131, 211, 0.5);
+    border-radius: 3em;
+    padding: 2em;
+}
+.para > p{
+    color: #3f3f4d;
+    text-align: left;
+    font-size: 1em;
+    font-weight: bold;
+}
+.mainstaff {
+    display: grid;
+    grid-gap: 10px;
+    margin: 25px;
+    padding: 20px;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+.mainstaff > * {
+    padding: 25px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3em;
+    color: darkred;
+}
+.Headpos {
+    text-align: center;
+    color: #3f3f4d;
+    font-size: 2em;
+    font-weight: 800;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+}
